@@ -8,7 +8,7 @@ function kirimWA(e) {
   
   const nomorWA = '6281234567890'; // GANTI DENGAN NOMOR LU
   
-  const text = `Halo RIRA CCTV%0ANama: ${nama}%0AAlamat: ${alamat}%0ATelp: ${telp}%0AKebutuhan: ${pesan}`;
+  const text = `Halo SMD CCTV%0ANama: ${nama}%0AAlamat: ${alamat}%0ATelp: ${telp}%0AKebutuhan: ${pesan}`;
   
   window.open(`https://wa.me/${nomorWA}?text=${text}`, '_blank');
 }
